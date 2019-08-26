@@ -58,7 +58,7 @@ class UserController extends FOSRestController
     /**
      * @Rest\Post("/user/{id}/dell/")
      */
-    public function actionDellTodo(Request $request, $id) // удалить задани(е/я) пользователя
+    public function actionDellTodo(Request $request, $id) // удалить задани(е/я) пользователя sfdsdefsefewf
     {
         $string = $request->get('text');
         $textsForDell = explode("||SPLITER||", $string);
